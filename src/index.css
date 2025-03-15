@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1300px;
+}
+
+.opportunity-card:hover{
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.opportunity-card:hover .opportunity-header{
+    background-color: #032642;
+    color: white;
+}
